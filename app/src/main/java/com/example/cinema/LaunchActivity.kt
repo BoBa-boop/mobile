@@ -13,7 +13,7 @@ class LaunchActivity : AppCompatActivity() {
             override fun onTick(millisUntilFinished: Long) {
             }
                 override fun onFinish() {
-                    val intent = Intent(this@LaunchActivity, MainActivity::class.java)
+                    val intent = Intent(this@LaunchActivity, SignIn::class.java)
                     startActivity(intent)
                     finish()
                 }
