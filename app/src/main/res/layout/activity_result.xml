@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ResultActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to\n WorldSkills 2019"
+        android:textAlignment="center"
+        android:textColor="@color/aquamarine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10.000 steps"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text1" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Description"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text2"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/aquamarine"
+        android:paddingLeft="15dp"
+        />
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:textSize="12sp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+         Donec luctus metus at eleifend portitor. Sed et urna ut nulla condimentum laoreet.
+          Duis et velit ut leo varius blandit. Curabitur accumsan nisi eu leo tristique sollicitudin.
+           Praesent vulputate odio ut porta sollicitudin.
+         Ut accumsan elit orci, in congue turpis posuere ac."
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/text3"
+        android:layout_marginTop="110dp"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:textAllCaps="false"
+        android:background="@drawable/button_shape"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="take_result"
+        android:text="Send result"
+        app:layout_constraintTop_toBottomOf="@id/text4"/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
