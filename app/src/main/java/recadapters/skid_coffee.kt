@@ -17,11 +17,13 @@ class skid_coffee (val context: Context, val list:ArrayList<coffee>) : RecyclerV
         return MyVH(root)
     }
 class MyVH(itemView: View): RecyclerView.ViewHolder(itemView){
-    val name:TextView = itemView.findViewById(R.id.txt_price)
+    val name:TextView = itemView.findViewById(R.id.name_coffee_txt)
+    val price:TextView = itemView.findViewById(R.id.txt_price)
     val image:ImageView = itemView.findViewById(R.id.img_coffee)
 }
     override fun onBindViewHolder(holder: skid_coffee.MyVH, position: Int) {
         holder.name.setText(list[position].name)
+        holder.price.setText(list[position].price)
         holder.image.setImageResource(list[position].image)
     }
 
