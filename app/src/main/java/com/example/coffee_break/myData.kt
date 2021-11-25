@@ -2,6 +2,18 @@ package com.example.coffee_break
 
 data class guide(val title:String, val image: Int)
 data class coffee(val name:String,val price:String, val image: Int)
+
+data class login(val id:String,
+                 val email:String,
+                 val nickName:String,
+                 val avatar: String,
+                 val token:String)
+
+
+
+
+
+
 object List {
     val list = arrayListOf(
         guide("Быстрая\n доставка", R.drawable.delivery),
