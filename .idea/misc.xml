@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/sadasss/AndroidStudioProjects/Coffee_Break/app/src/main/res/drawable/coffee_shape.xml" value="0.362962962962963" />
+        <entry key="..\:/Users/sadasss/AndroidStudioProjects/Coffee_Break/app/src/main/res/drawable/exit_btn.xml" value="0.2657407407407407" />
         <entry key="..\:/Users/sadasss/AndroidStudioProjects/Coffee_Break/app/src/main/res/drawable/skid_coffee_sh.xml" value="0.36944444444444446" />
         <entry key="..\:/Users/sadasss/AndroidStudioProjects/Coffee_Break/app/src/main/res/drawable/tab_base.xml" value="0.3828125" />
         <entry key="..\:/Users/sadasss/AndroidStudioProjects/Coffee_Break/app/src/main/res/drawable/tab_main.xml" value="0.3828125" />
@@ -11,10 +13,14 @@
         <entry key="..\:/Users/sadasss/AndroidStudioProjects/Coffee_Break/app/src/main/res/layout/activity_guide.xml" value="0.3078125" />
         <entry key="..\:/Users/sadasss/AndroidStudioProjects/Coffee_Break/app/src/main/res/layout/activity_launch.xml" value="0.25" />
         <entry key="..\:/Users/sadasss/AndroidStudioProjects/Coffee_Break/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/sadasss/AndroidStudioProjects/Coffee_Break/app/src/main/res/layout/activity_menu.xml" value="0.1" />
+        <entry key="..\:/Users/sadasss/AndroidStudioProjects/Coffee_Break/app/src/main/res/layout/activity_profile.xml" value="0.25" />
         <entry key="..\:/Users/sadasss/AndroidStudioProjects/Coffee_Break/app/src/main/res/layout/activity_reg.xml" value="0.1" />
         <entry key="..\:/Users/sadasss/AndroidStudioProjects/Coffee_Break/app/src/main/res/layout/activity_sign_up.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/sadasss/AndroidStudioProjects/Coffee_Break/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Users/sadasss/AndroidStudioProjects/Coffee_Break/app/src/main/res/layout/skid_cof.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/sadasss/AndroidStudioProjects/Coffee_Break/app/src/main/res/layout/vp_adapter.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/sadasss/AndroidStudioProjects/Coffee_Break/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

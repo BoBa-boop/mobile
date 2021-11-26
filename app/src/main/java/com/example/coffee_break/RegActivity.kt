@@ -51,7 +51,7 @@ class RegActivity : AppCompatActivity() {
         {
             val alert = AlertDialog.Builder(this,)
                 .setTitle("Ошибка входа")
-                .setMessage("Поле пустые")
+                .setMessage("Поля пустые")
                 .setPositiveButton("Ок",null)
                 .create()
                 .show()
