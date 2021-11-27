@@ -5,21 +5,16 @@ import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
-import android.view.ViewGroup
 import android.widget.CheckBox
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import androidx.appcompat.app.AppCompatViewInflater
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.coffee_break.net.ApiRet
 import com.example.coffee_break.net.MyRetrofit
 import recadapters.skid_coffee
 import retrofit2.Call
 import retrofit2.Response
-import retrofit2.create
-import java.util.regex.Pattern
 import java.util.regex.Pattern.compile
 
 
@@ -115,15 +110,9 @@ class SignUpActivity : AppCompatActivity() {
 
             val editor2 = sharedPreferences.edit()
                 editor2.putBoolean("save",true)
-            val intent = Intent(this@SignUpActivity, menuActivity::class.java)
-                startActivity(intent)
+                editor2.apply()
+
         }
-            else{
-                val editor2 = sharedPreferences.edit()
-                editor2.putBoolean("save",false)
-                val intent = Intent(this@SignUpActivity, menuActivity::class.java)
-                startActivity(intent)
-            }
     }
 
 }

@@ -2,17 +2,12 @@ package com.example.coffee_break
 
 data class guide(val title:String, val image: Int)
 data class coffee(val name:String,val price:String, val image: Int)
-
+data class soda(val name:String,val price:String, val image: Int)
 data class login(val id:String,
                  val email:String,
                  val nickName:String,
                  val avatar: String,
                  val token:String)
-
-
-
-
-
 
 object List {
     val list = arrayListOf(
@@ -27,7 +22,17 @@ class Skid_coffee{val list = arrayListOf(coffee("Эспрессо","70 руб",R
         coffee("Латте","60 руб", R.drawable.latte),
         coffee("Мокко", "115 руб", R.drawable.mokko),
         coffee("Горячий шоколад","80 руб",R.drawable.hot_ch),
-        coffee("Американо","70 руб", R.drawable.amer)
+        coffee("Американо","70 руб", R.drawable.amer),
+        coffee("Латте","60 руб", R.drawable.latte),
+        coffee("Капучино","100 руб",R.drawable.capuch),
+        coffee("Латте","60 руб", R.drawable.latte),
+        coffee("Латте","60 руб", R.drawable.latte)
 )
 
+}
+class soda_drinks{val list= arrayListOf(soda("Coca-Cola","40 руб",R.drawable.capuch),
+    soda("Coca-Cola","40 руб",R.drawable.capuch),
+    soda("Coca-Cola","40 руб",R.drawable.capuch),
+    soda("Coca-Cola","40 руб",R.drawable.capuch),
+    )
 }

@@ -23,7 +23,6 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rec"
-
         android:layout_width="match_parent"
         android:layout_height="230dp"
         android:orientation="horizontal"
@@ -32,7 +31,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv"
         app:layout_constraintBottom_toTopOf="@+id/email"
-
         android:layout_marginTop="20dp"/>
     <EditText
         android:id="@+id/email"
