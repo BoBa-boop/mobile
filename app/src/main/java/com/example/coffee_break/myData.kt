@@ -3,6 +3,7 @@ package com.example.coffee_break
 data class guide(val title:String, val image: Int)
 data class coffee(val name:String,val price:String, val image: Int)
 data class soda(val name:String,val price:String, val image: Int)
+data class water(val name:String,val price:String, val image: Int)
 data class login(val id:String,
                  val email:String,
                  val nickName:String,
@@ -31,8 +32,21 @@ class Skid_coffee{val list = arrayListOf(coffee("Эспрессо","70 руб",R
 
 }
 class soda_drinks{val list= arrayListOf(soda("Coca-Cola","40 руб",R.drawable.capuch),
-    soda("Coca-Cola","40 руб",R.drawable.capuch),
-    soda("Coca-Cola","40 руб",R.drawable.capuch),
-    soda("Coca-Cola","40 руб",R.drawable.capuch),
+        soda("Coca-Cola","40 руб",R.drawable.capuch),
+        soda("Coca-Cola","40 руб",R.drawable.capuch),
+        soda("Coca-Cola","40 руб",R.drawable.capuch),
+        soda("Coca-Cola","40 руб",R.drawable.capuch),
+        soda("Coca-Cola","40 руб",R.drawable.capuch),
+        soda("Coca-Cola","40 руб",R.drawable.capuch)
+    )
+
+}
+class water_list{val list = arrayListOf(soda("Coca-Cola", "40 руб", R.drawable.capuch),
+        soda("Вода", "20 руб", R.drawable.hot_ch),
+        soda("Вода", "20 руб", R.drawable.hot_ch),
+        soda("Вода", "20 руб", R.drawable.hot_ch),
+        soda("Вода", "20 руб", R.drawable.hot_ch),
+        soda("Вода", "20 руб", R.drawable.hot_ch),
+        soda("Вода", "20 руб", R.drawable.hot_ch)
     )
 }

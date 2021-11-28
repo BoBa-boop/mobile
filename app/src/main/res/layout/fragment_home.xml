@@ -23,17 +23,14 @@
 
     <Spinner
         android:id="@+id/spinner_drink"
-        android:entries="@array/menuDrinks"
+        android:background="@drawable/spinner_style"
         android:layout_width="294dp"
         android:layout_height="35dp"
-
-        android:background="@color/white"
-        style="@style/mySpinnerItemStyle"
-        app:layout_constraintTop_toBottomOf="@id/title_main1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="20dp"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_main1" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rec_main1"
         android:layout_width="match_parent"

@@ -23,7 +23,6 @@
 
     <Spinner
         android:id="@+id/spinner_drink"
-        android:entries="@array/menuDrinks"
         android:layout_width="294dp"
         android:layout_height="35dp"
         android:background="@color/white"

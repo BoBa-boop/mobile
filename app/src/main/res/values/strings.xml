@@ -1,11 +1,6 @@
 <resources>
     <string name="app_name">Coffee_Break</string>
-    <string-array name="menuDrinks">
-        <item>Кофе</item>
-        <item>Газированная вода</item>
-        <item>Вода</item>
-        <item>Чай</item>
-    </string-array>
+
     <string name="title_activity_menu">menuActivity</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
